@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 
 PRODUCT_COPY_FILES += \
-    vendor/UMIDIGI/A5_Pro/proprietary/bin/netd:$(TARGET_COPY_OUT_SYSTEM)/bin/netd \
     vendor/UMIDIGI/A5_Pro/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/UMIDIGI/A5_Pro/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/UMIDIGI/A5_Pro/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
